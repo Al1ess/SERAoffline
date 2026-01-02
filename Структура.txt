@@ -1,0 +1,29 @@
+saby_helper_v1.5.1/
+├── main.py                    # Главный файл запуска
+├── app.py                     # Основной класс приложения
+├── main_window.py            # Главное окно
+├── config.py                 # Конфигурация
+├── analyzer.py              # Анализатор ошибок
+├── report_generator.py      # Генератор отчетов
+├── pdf_generator.py         # PDF генератор
+├── log_analyzer.py          # Анализатор логов поддержки
+├── marking_analyzer.py      # Анализатор логов маркировки
+├── license_client.py        # Клиент лицензирования
+├── license_window.py        # Окно лицензии
+├── update_manager.py        # Менеджер обновлений
+├── build.py                 # Скрипт сборки
+├── requirements.txt         # Зависимости
+├── icon.ico                # Иконка приложения
+├── README.md               # Документация
+├── modules/                # Новые модули
+│   ├── __init__.py
+│   ├── log_downloader.py   # Выгрузка логов
+│   └── settings_manager.py # Управление настройками
+├── utils/                  # Утилиты
+│   ├── __init__.py
+│   └── logger.py          # Улучшенное логирование
+└── ui_components/         # UI компоненты
+    ├── __init__.py
+    ├── dialogs.py         # Диалоговые окна
+    ├── pages.py           # Страницы интерфейса
+    └── threads.py         # Фоновые потоки
